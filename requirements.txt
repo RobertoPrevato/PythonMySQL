@@ -1,0 +1,4 @@
+inflect==0.2.5
+PyMySQL==0.7.11
+sqlacodegen==1.1.6
+SQLAlchemy==1.1.10
