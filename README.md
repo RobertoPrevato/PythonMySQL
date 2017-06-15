@@ -50,7 +50,7 @@ Use provided /db/create_example_db.sql
 ### 6. Run
 Run the example file using the prepared environment, `runexample.py`.
 
-# Database first example
+# Database first
 To generate classes from an existing database, use the `sqlacodegen` tool from the virtual environment.
 
 ```bash
