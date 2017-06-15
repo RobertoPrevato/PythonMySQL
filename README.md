@@ -45,10 +45,10 @@ mysql+pymysql://USERNAME:PASSWORD@IP_ADDRESS_OF_MYSQL_SERVER:3306/DATABASE_NAME
 **NB**: the connection string depends on the connector we are using (PyMySQL), and SQLAlchemy itself.
 
 ### 5. Create the example database and tables in your instance of MySQL Server
-Use provided /db/create_example_db.sql
+Use provided `/db/create_example_db.sql` to create the example database in your instance of MySQL.
 
 ### 6. Run
-Run the example file using the prepared environment, `runexample.py`.
+Run the example file (`runexample.py`) using the prepared environment. This file creates a fake user account in the example database and picture metadata associated with this fake user.
 
 # Database first
 To generate classes from an existing database, use the `sqlacodegen` tool from the virtual environment.
