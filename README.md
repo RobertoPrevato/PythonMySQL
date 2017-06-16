@@ -2,7 +2,8 @@
 Example for using Python with MySQL and SQLAlchemy.
 
 ## How to use
-1. Download or clone this repository
+
+### 1. Download or clone this repository
 ```bash
 # clone repository:
 git clone https://github.com/RobertoPrevato/PythonMySQL.git
@@ -20,6 +21,7 @@ env/bin/pip install -r requirements.txt
 ```bash
 # Windows:
 py -3 -m venv env
+
 env\Scripts\pip install -r requirements.txt
 ```
 
